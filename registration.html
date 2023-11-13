@@ -9,14 +9,65 @@
     
     <nav>
         <ul>
-            <li><a href="pages/index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/registration.html">Registration</a></li>
-            <li><a href="pages/service.html">Service</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="service.html">Service</a></li>
 
     </nav>
+
+
+    
+    <h1>School Kid Registration Form</h1>
+
+    <form action="#" method="post">
+        <h2>Pupil Information</h2>
+
+        <label>Pupil Name:</label>
+        <input type="text" name="pupilName" required>
+
+        <label>Pupil Date of Birth:</label>
+        <input type="date" name="pupilDateOfBirth" required>
+
+        <label>Pupil Grade:</label>
+        <select name="pupilGrade" required>
+            <option value="">Select Grade</option>
+            <option value="1">Grade 1</option>
+            <option value="2">Grade 2</option>
+            <option value="3">Grade 3</option>
+            <option value="4">Grade 4</option>
+            <option value="5">Grade 5</option>
+            <option value="6">Grade 6</option>
+        </select>
+
+        <label>Upload Copy of Birth Certificate:</label>
+        <input type="file" name="pupilBirthCertificate" required>
+
+        <h2>Parent/Guardian Information</h2>
+
+        <label>Parent/Guardian Name:</label>
+        <input type="text" name="parentName" required>
+
+        <label>Relationship to Pupil:</label>
+        <select name="parentRelationship" required>
+            <option value="">Select Relationship</option>
+            <option value="parent">Parent</option>
+            <option value="guardian">Guardian</option>
+        </select>
+
+        <label>Parent/Guardian Contact Number:</label>
+        <input type="tel" name="parentContactNumber" required>
+
+        <label>Parent/Guardian Email Address:</label>
+        <input type="email" name="parentEmail" required>
+
+        <label>Upload Copy of Parent/Guardian ID:</label>
+        <input type="file" name="parentID" required>
+
+        <button type="submit">Register</button>
+    </form>
 
 
 </body>
