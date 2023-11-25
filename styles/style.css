@@ -24,7 +24,7 @@ input, select, textarea {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #2A7C6F;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -53,7 +53,7 @@ footer p {
 }
 
 .call-to-action button {
-    background-color: #4CAF50;
+    background-color: #2A7C6F;
     color: white;
     padding: 10px 20px;
     border: none;
