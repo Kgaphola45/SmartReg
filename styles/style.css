@@ -261,3 +261,31 @@ footer p {
 
 
 
+.quick-links {
+  background-color: #2A7C6F;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.quick-links h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.quick-links a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #1E5F54;
+  transition: background-color 0.3s;
+}
+
+.quick-links a:hover {
+  background-color: #1E5F54;
+}
+
