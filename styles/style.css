@@ -1,3 +1,95 @@
+label[for="pupilBirthCertificate"],
+label[for="parentID"],
+label[for="pupilTranscripts"],
+label[for="proofOfResidence"] {
+    background-color: #2A7C6F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* Style the file input labels to make them look like buttons */
+label[for="pupilBirthCertificate"]:before,
+label[for="parentID"]:before,
+label[for="pupilTranscripts"]:before,
+label[for="proofOfResidence"]:before {
+    content: 'Choose File';
+    display: inline-block;
+    background-color: #2A7C6F;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Add modern styling to the form */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2A7C6F;
+}
+
+button[type="reset"], button[type="submit"] {
+    background-color: #2A7C6F;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effects for buttons */
+button[type="reset"]:hover, button[type="submit"]:hover {
+    background-color: #1E5F54;
+}
+
+/* Style the footer */
+footer {
+    background-color: #2A7C6F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the contact info */
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Style the social media icons */
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Style the call-to-action buttons */
+.call-to-action button {
+    background-color: #1E5F54;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Add hover effects for call-to-action buttons */
+.call-to-action button:hover {
+    background-color: #144C42;
+}
 
 
 h1 {
