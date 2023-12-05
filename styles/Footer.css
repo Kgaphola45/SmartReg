@@ -31,6 +31,12 @@
   .social-media a {
     margin-right: 10px;
   }
+
+  .social-media a img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px; /* Add some margin between the icons */
+}
   
   /* Styling for buttons in the call-to-action section */
   .call-to-action button {
