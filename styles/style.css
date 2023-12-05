@@ -1,295 +1,73 @@
-label[for="pupilBirthCertificate"],
-label[for="parentID"],
-label[for="pupilTranscripts"],
-label[for="proofOfResidence"] {
-    background-color: #2A7C6F;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 5px;
-    display: inline-block;
-}
-
-/* Style the file input labels to make them look like buttons */
-label[for="pupilBirthCertificate"]:before,
-label[for="parentID"]:before,
-label[for="pupilTranscripts"]:before,
-label[for="proofOfResidence"]:before {
-    content: 'Choose File';
-    display: inline-block;
-    background-color: #2A7C6F;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-/* Add modern styling to the form */
+/* Form styling */
 form {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: #2A7C6F;
-}
-
-button[type="reset"], button[type="submit"] {
-    background-color: #2A7C6F;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Add hover effects for buttons */
-button[type="reset"]:hover, button[type="submit"]:hover {
-    background-color: #1E5F54;
-}
-
-/* Style the footer */
-footer {
-    background-color: #2A7C6F;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Style the contact info */
-.contact-info p {
-    margin: 5px 0;
-}
-
-/* Style the social media icons */
-.social-media a {
-    margin-right: 10px;
-}
-
-.social-media img {
-    width: 30px;
-    height: 30px;
-}
-
-/* Style the call-to-action buttons */
-.call-to-action button {
-    background-color: #1E5F54;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-/* Add hover effects for call-to-action buttons */
-.call-to-action button:hover {
-    background-color: #144C42;
-}
-
-
-h1 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
+  text-align: center;
+  font-family: 'Brandon Grotesque', sans-serif;
+  color: #2A7C6F;
 }
 
 label {
-    display: block;
-    margin: 10px 0;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  appearance: none;
 }
 
 button {
-    background-color: #2A7C6F;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-    
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 5px 0;
-}
-
-.social-media img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-.call-to-action button {
-    background-color: #2A7C6F;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 5px;
-    
-}
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat',sans-serif;
-}
-.cards{
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px;
-}
-.cards h2.header{
-  font-size: 40px;
-  margin: 0 0 30px 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.services{
-  display: flex;
-  align-items: center;
-}
-.content{
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  margin: 20px;
-  padding: 20px;
-  border: 2px solid black;
-  border-radius: 4px;
-  transition: all .3s ease;
-}
-.content .fab{
-  font-size: 70px;
-  margin: 16px 0;
-}
-.content > *{
-  flex: 1 1 100%;
-}
-.content:hover{
-  color: white;
-}
-.content:hover a{
-  border-color: white;
-  background: white;
-}
-.content-1:hover{
-  border-color: #2A7C6F;
-  background: #2A7C6F;
-}
-.content-1:hover a{
-  color: #2A7C6F;
-}
-.content-2:hover{
-  border-color: #2A7C6F;
-  background: #2A7C6F;
-}
-.content-2:hover a{
-  color: #2A7C6F;
-}
-.content-3:hover{
-  border-color: #2A7C6F;
-  background: #2A7C6F;
-}
-.content-3:hover a{
-  color: #2A7C6F;
-}
-.content h2{
-  font-size: 30px;
-  margin: 16px 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.content p{
-  font-size: 17px;
-  font-family: 'Poppins',sans-serif;
-}
-.content a{
-  margin: 22px 0;
-  background: black;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 1px solid black;
-  padding: 15px 0;
-  border-radius: 25px;
-  transition: .3s ease;
-}
-.content a:hover{
-  border-radius: 4px;
-}
-@media (max-width: 900px) {
-  .services{
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-
-
-
-
-
-.quick-links {
   background-color: #2A7C6F;
   color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.quick-links h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.quick-links a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
   padding: 10px 20px;
-  font-size: 18px;
-  margin: 0 10px;
+  border: none;
   border-radius: 5px;
-  border: 1px solid #1E5F54;
-  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
 }
 
-.quick-links a:hover {
-  background-color: #1E5F54;
+button[type="reset"] {
+  background-color: #ccc;
+  color: #333;
 }
 
+/* Health Information section styling */
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
 
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+  form {
+    padding: 10px;
+  }
 
+  h1, h2 {
+    font-size: 1.5em;
+  }
 
-
+  button {
+    font-size: 0.9em;
+  }
+}
