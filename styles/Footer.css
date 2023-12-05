@@ -1,0 +1,53 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styling for the footer */
+  footer {
+    background-color: #2A7C6F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the contact information section */
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 8px 0;
+    font-family: 'Avenis light', sans-serif;
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+  }
+  
+  /* Styling for social media links */
+  .social-media a {
+    margin-right: 10px;
+  }
+  
+  /* Styling for buttons in the call-to-action section */
+  .call-to-action button {
+    background-color: white;
+    color: #2A7C6F;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for buttons */
+  .call-to-action button:hover {
+    background-color: #2A7C6F;
+    color: white;
+  }
+  
