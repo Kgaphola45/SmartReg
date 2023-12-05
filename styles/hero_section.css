@@ -1,54 +1,82 @@
 .hero {
-    background-color: #2A7C6F;
-    color: white;
-    padding: 10rem 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
-    font-family: sans-serif;
-  }
-  
+  background-color: #2A7C6F;
+  color: white;
+  padding: 10rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  font-family: sans-serif;
+}
+
+.hero h1 {
+  font-family: Brandon Grotesque, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-family: Avenis Light, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.hero button {
+  background-color: white;
+  color: #2A7C6F;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero button:hover {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
   .hero h1 {
-    font-family: Brandon Grotesque, sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    line-height: 1.2;
+    font-size: 2.5rem;
   }
-  
+
   .hero p {
-    font-family: Avenis Light, sans-serif;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    line-height: 1.5;
+    font-size: 1rem;
   }
-  
-  .hero button {
-    background-color: white;
-    color: #2A7C6F;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .hero button:hover {
-    background-color: #f5f5f5;
-  }
-  
-  @media (max-width: 768px) {
-    .hero h1 {
-      font-size: 2.5rem;
-    }
-  
-    .hero p {
-      font-size: 1rem;
-    }
-  }
-  
+}
+
+
+.hero h1,
+.hero h2 {
+  color: white;
+  font-size: 4rem; /* Adjust the font size as needed */
+}
+
+/* Rest of the existing styles */
+.hero h1 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-family: 'Avenis Light', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
