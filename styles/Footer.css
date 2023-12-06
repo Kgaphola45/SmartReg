@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 /* General styling for the footer */
@@ -17,7 +16,7 @@ footer {
 /* Styling for the contact information section */
 .contact-info {
     margin-bottom: 20px;
-    color: white;
+    
 }
 
 .contact-info p {
@@ -41,24 +40,25 @@ footer {
 .social-media a img {
     width: 30px;
     margin-right: 10px;
-    color: white;
+    
 }
 
 /* Styling for buttons in the call-to-action section */
 .call-to-action button {
-    background-color: white;
-    color: #2A7C6F;
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Brandon Grotesque', sans-serif;
-    font-weight: bold;
+  background-color: white;
+  color: #2A7C6F;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* Hover effect for buttons */
 .call-to-action button:hover {
-    background-color: #2A7C6F;
-    color: white;
+  background-color: #1D5C56; 
+  color: white;
 }
