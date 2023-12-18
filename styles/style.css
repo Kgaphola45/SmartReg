@@ -150,3 +150,42 @@ p {
     width: 100%;
   }
 }
+
+
+/*cards for info on center*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.card {
+  max-width: 100%;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 20px; 
+}
+
+img {
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.description {
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
