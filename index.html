@@ -24,64 +24,74 @@
     </nav>
 
     <section class="hero">
-        <h1>Welcome to School FC</h1>
-        <p>Where education meets excellence. Explore the possibilities and discover the unique opportunities that await you here.</p>
+    
+        
       
-        <div class="slideshow-container">
-            <!-- Slides -->
-            <div class="mySlides">
-              <img src="images/slide3.jpeg" alt="Slide 1">
-            </div>
-          
-            <div class="mySlides">
-              <img src="images/slide2.jpeg" alt="Slide 2">
-            </div>
-          
-            <div class="mySlides">
-              <img src="images/slide1.jpeg" alt="Slide 3">
-            </div>
-          
-            <!-- Navigation dots -->
-            <div style="text-align:center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-          
-          <script>
-            let slideIndex = 0;
-            showSlides();
-          
-            function showSlides() {
-              let i;
-              const slides = document.getElementsByClassName("mySlides");
-              const dots = document.getElementsByClassName("dot");
-          
-              // Hide all slides
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-              }
-          
-              // Increment index and reset if necessary
-              slideIndex++;
-              if (slideIndex > slides.length) {
-                slideIndex = 1;
-              }
-          
-              // Show the current slide and update dots
-              slides[slideIndex - 1].style.display = "block";
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              dots[slideIndex - 1].className += " active";
-          
-              // Call the function again after 2 seconds (adjust as needed)
-              setTimeout(showSlides, 2000);
-            }
-          </script>
+        <!-- HTML Code -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/slide2.jpg" alt="Slide 1">
+      <div class="centered">
+        <h1>Welcome to School FC</h1>
+        <hr>
+        <p>Where education meets excellence. Explore the possibilities and discover the unique opportunities that await you here.</p>
+        <button class="explore-button">Explore Now</button>
+      </div>
+    </div>
 
-        <button onclick="window.location.href='gallery.html'">Explore Now</button>
+    <div class="mySlides fade">
+      <img src="images/slide1.jpg" alt="Slide 2">
+      <div class="centered">
+        <h1>Welcome to School FC</h1>
+        <hr>
+        <p>Where education meets excellence. Explore the possibilities and discover the unique opportunities that await you here.</p>
+        <button class="explore-button">Explore Now</button>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/slide3.jpg" alt="Slide 2">
+        <div class="centered">
+            <h1>Welcome to School FC</h1>
+          <hr>
+          <p>Where education meets excellence. Explore the possibilities and discover the unique opportunities that await you here.</p>
+          <button class="explore-button">Explore Now</button>
+        </div>
+      </div>
+
+
+      <div class="mySlides fade">
+        <img src="images/slide4.jpg" alt="Slide 2">
+        <div class="centered">
+            <h1>Welcome to School FC</h1>
+          <hr>
+          <p>Where education meets excellence. Explore the possibilities and discover the unique opportunities that await you here.</p>
+          <button class="explore-button">Explore Now</button>
+        </div>
+      </div>
+
+
+
+    <script>
+      
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000);
+      }
+    </script>
+  </div>
     </section>
 
     <section class="about">
