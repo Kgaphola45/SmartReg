@@ -3,95 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: url('C:\Users\Methembe\Desktop\SmartReg\images\rain.jpg.jpg');
+            background-size: cover;
+            overflow: hidden;
+            display: grid;
+            place-items: center;
+            font-family: montserrat;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="service.html">Service</a></li>
-
-    </nav>
-
-
-
+    <
+p
+style
+=
+"background-image: url('C:\Users\Methembe\Desktop\SmartReg\images\rain.jpg.jpg');"
+>
     
-<body>
-    <header>
-        <h1>Contact Us</h1>
-    </header>
-    <section class="main-content">
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+    <h3>Contact Us</h3>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+    <form action="process_form.php" method="post">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Shemeni">
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="email">Enter Your Surname:</label>
+        <input type="text" id="surname" name="surname" placeholder="Shabangu">
 
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2023 SmartReg. All rights reserved.</p>
-    </footer>
+
+
+        <label for="email">Enter Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="shemeni21@gmail.com">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Please enter your message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
 </body>
-<footer>
-    <div class="contact-info">
-        <p><strong>Address:</strong> 27 Jorisson street braamfontein</p>
-        <p><strong>Phone:</strong> <a href="tel:+27627785233">+27 62 778 5233</a></p>
-        <p><strong>Email:</strong> <a href="mailto:Moraka@gmail.com">Moraka@gmail.com</a></p>
-    </div>
-
-    <div class="social-media">
-        <p><strong>Follow Us:</strong> 
-            <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
-        </p>
-        
-    </div>
-
-    <div class="call-to-action">
-        <button>Apply Now</button>
-        <button>Schedule a Tour</button>
-        <button>Contact Us</button>
-    </div>
-    
-</body>
-
-
-
-    
-<footer>
-    <div class="contact-info">
-        <p><strong>Address:</strong> 27 Jorisson street braamfontein</p>
-        <p><strong>Phone:</strong> <a href="tel:+27627785233">+27 62 778 5233</a></p>
-        <p><strong>Email:</strong> <a href="mailto:Moraka@gmail.com">Moraka@gmail.com</a></p>
-    </div>
-
-    <div class="social-media">
-        <p><strong>Follow Us:</strong> 
-            <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
-        </p>
-        
-    </div>
-
-    <div class="call-to-action">
-        <button>Apply Now</button>
-        <button>Schedule a Tour</button>
-        <button>Contact Us</button>
-    </div>
-
-    
-</footer>
 </html>
